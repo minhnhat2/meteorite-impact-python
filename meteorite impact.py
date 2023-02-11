@@ -9,7 +9,7 @@ pygame.init()
 screen= pygame.display.set_mode((width,height))
 #tạo nhân vật người chơi
 player=pygame.Rect(width/2,height/2,20,20) 
-asteroids=[]
+asteroids=[] 
 for i in range (10):
     x=random.randint(0,width)     
     y=random.randint(0,height)
